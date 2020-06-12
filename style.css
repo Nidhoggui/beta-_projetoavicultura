@@ -1,0 +1,16 @@
+.navbar
+{
+  background-color: #74EBD5;
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+
+.titulo
+{
+  font-size: 120px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.cadastros
+{
+  background-color: blue;
+}
