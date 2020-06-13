@@ -1,7 +1,6 @@
 
 function cadastrar(){
-  document.getElementById("nome").value = document.getElementById("nome");
-  alert("Granja" + document.getElementById("nome").value + " Cadastrada!");
+  alert("Granja " + document.getElementById("nome").value + " Cadastrada!");
 };
 
 function voltar(){
