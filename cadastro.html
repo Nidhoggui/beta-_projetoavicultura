@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src = "js/main.js"></script>
     <title>Cadastros</title>
   </head>
   <body>
-
     <header>
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand">
@@ -20,6 +20,7 @@
 
     <section id="cadastros">
       <div class="countainer-fluid text-center margin cadastro">
+        <a id="voltar" onmouseover="voltar();" onmouseout="voltar();" href="index.html" style="color: gray">Inicio</a>
         <h3>CADASTRO</h3>
       </div>
     </section>
@@ -41,7 +42,7 @@
         <label>CNPJ</label>
         <input type="text" class="form-control" id="cnpj">
       </div>
-      <button type="submit" class="btn btn-primary">Cadastrar</button>
+      <button type="button" class="btn btn-primary" onclick="cadastrar();">Cadastrar</button>
     </form>
   </body>
 </html>
