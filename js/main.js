@@ -1,9 +1,7 @@
 
 function cadastrar(){
-  //var nome = cadastro.html.getElementById('nome');
-  //alert("Granja " + "nome" + " Cadastrada!");
-  document.getElementById("nome").innerHTML = "Cocoricó";
-  alert("Granja" + document.getElementById("nome") + " Cadastrada!");
+  document.getElementById("nome").value = document.getElementById("nome");
+  alert("Granja" + document.getElementById("nome").value + " Cadastrada!");
 };
 
 function voltar(){
