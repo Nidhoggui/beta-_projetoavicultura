@@ -4,6 +4,14 @@ db.transaction(function(criar){
 });
 
 function cadastrar(){
+  var codigo = document.getElementById("codigo").value;
+  var nome = document.getElementById("nome").value;
+  var email = document.getElementById("email").value;
+  var cnpj = document.getElementById("cnpj").value;
+
+  db.transaction(function(armazenar){
+    armazenar.executeSql("INSERT INTO granjas (codigo, nome, email, cnpj) VALUES (?,?,?@email.com,?)", [codigo, nome, email, cnpj]);
+  });
   alert("Granja " + document.getElementById("nome").value + " Cadastrada!");
 };
 
